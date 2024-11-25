@@ -32,7 +32,7 @@ public class ArrayDebugging {
         int[] reversedArray = new int[numbers.length];
         
         for (int i = 0; i < numbers.length; i++) {
-            reversedArray[i] = numbers[numbers.length - i]; 
+            reversedArray[i] = numbers[numbers.length - i -1]; 
         }
 
         // Mostrar el array invertido
